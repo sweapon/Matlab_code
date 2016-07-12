@@ -1,7 +1,10 @@
 %% Created by Bent O. Arnesen, Summer 2016, NTNU
 
 %Creates a box in which you can place arbitrary text.
-%Box position and size can be chosen as desired.
+%Box position and size can be chosen as desired. It does suffer from
+% random size drops when the plot figure size is reconfigured.
+% Instead of using boxplot, suggest plotting by setting both Marker 
+% and LineStyle to 'None' and configure the legend as normal.
 
 % Probably works best if written as a function with box position (and size)
 % as input, together with the function in which you want to plot the text. 
