@@ -1,5 +1,8 @@
 %% Created by Bent O. Arnesen, Summer 2016, NTNU
 
+%Creates a box in which you can place arbitrary text.
+%Box position and size can be chosen as desired.
+
 % Probably works best if written as a function with box position (and size)
 % as input, together with the function in which you want to plot the text. 
 % For plotting into the current figure, use "gcf" as input argument.
